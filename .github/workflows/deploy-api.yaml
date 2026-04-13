@@ -19,7 +19,6 @@ on:
 
 jobs:
   build-and-push:
-    name: Build and Push Docker Image #Cualquier cosa BORRAR LINEA
     runs-on: ubuntu-latest
     steps:
       - name: Descargar el codigo del repo
